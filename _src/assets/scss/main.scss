@@ -1,6 +1,17 @@
 @import 'core/settings';
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	height: 100vh;
+.body {
+	width: 100vw;
+  height: 100vh;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dfe6e9;
+  color: #079992;
+}
+
+.counter__main {
+  font-size: 50px;
+  color: #b71540;
 }
