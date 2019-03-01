@@ -20,17 +20,17 @@ function chosenNumber() {
   let inputUser = parseInt(input.value);
 
   if (inputUser < randomNumber) {
-    clueForUser.innerHTML = 'too low, try again!';
+    clueForUser.innerHTML = 'Too low, try again!';
     counter += 1;
     counterAttempts.innerHTML = counter;
   }
   else if (inputUser > randomNumber) {
-    clueForUser.innerHTML = 'too high, try again!';
+    clueForUser.innerHTML = 'Too high, try again!';
     counter += 1;
     counterAttempts.innerHTML = counter;
   }
   else {
-    clueForUser.innerHTML = 'You won... Yay!';
+    clueForUser.innerHTML = 'You won... Yay! :D';
   }
 }
 
