@@ -3,15 +3,37 @@
 .body {
 	width: 100vw;
   height: 100vh;
-  margin: 20px;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dfe6e9;
   color: #079992;
 }
 
+//Header
+
+.page__header {
+  display: flex;
+  justify-content: center;
+  background-color: #C2768E;
+}
+
+//Main
+.page__main {
+  background-color: #7edfd2;
+}
+
 .counter__main {
   font-size: 50px;
   color: #b71540;
+}
+
+//Footer
+
+.text__footer {
+  margin: 0;
+  padding: 1%;
+  color: #dfe6e9;
+  background-color: #C2768E;
 }
